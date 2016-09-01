@@ -10,9 +10,8 @@ defmodule ExNerdBeers.Agenda.Test do
     assert Enum.count(agendas) > 1
   end
 
-  @tag todo: true
   test "get single agenda" do
-    response = ExNerdBeers.Agenda.show
-    assert Enum.count(response) == 1
+    agenda = ExNerdBeers.Agenda.show("2016-08-01")
+    assert Enum.count(agenda) == 1
   end
 end
