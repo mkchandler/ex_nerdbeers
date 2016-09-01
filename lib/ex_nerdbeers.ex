@@ -16,7 +16,10 @@ defmodule ExNerdBeers do
     }
   end
 
-  def make_request(:get, url) do
+  def get_all_agendas(url), do: make_request(:get, url)
+  def get_agenda(url), do: make_request(:get, url)
+
+  defp make_request(:get, url) do
     get(url, headers)
   end
 

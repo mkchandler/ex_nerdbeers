@@ -6,12 +6,12 @@ defmodule ExNerdBeers.Agenda.Test do
   end
 
   test "get all agendas" do
-    assert agendas = ExNerdBeers.Agenda.list
+    agendas = ExNerdBeers.Agenda.list
     assert Enum.count(agendas) > 1
   end
 
   test "get single agenda" do
-    agenda = ExNerdBeers.Agenda.show("2016-08-01")
+    agenda = ExNerdBeers.Agenda.show("2016-09-01")
     assert Enum.count(agenda) == 1
   end
 end

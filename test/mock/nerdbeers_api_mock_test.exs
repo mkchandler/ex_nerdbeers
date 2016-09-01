@@ -1,5 +1,11 @@
 defmodule ExNerdBeers.ApiMock do
-  def make_request(:get, "/agenda/all") do
+  def get_agenda("/agenda?date=2016-09-01") do
+    {:ok, %{
+      body: [%{}]
+    }}
+  end
+
+  def get_all_agendas("/agenda/all") do
     {:ok, %{
       body: [
         %{
