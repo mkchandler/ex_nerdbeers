@@ -4,7 +4,7 @@ defmodule ExNerdBeers.Mixfile do
   def project do
     [app: :ex_nerdbeers,
      version: "0.1.0",
-     elixir: "~> 1.3",
+     elixir: "~> 1.4.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps()]
@@ -17,6 +17,7 @@ defmodule ExNerdBeers.Mixfile do
 
   defp deps do
     [{:httpoison, "~> 0.9.0"},
-     {:poison, "~> 2.0"}]
+     {:poison, "~> 2.0"},
+     {:coverex, "~> 1.4.10", only: :test}]
   end
 end
