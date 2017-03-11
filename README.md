@@ -1,6 +1,6 @@
 # ExNerdBeers
 
-[![Build Status](https://travis-ci.org/mkchandler/ex_nerdbeers.svg?branch=master)](https://travis-ci.org/mkchandler/ex_nerdbeers)
+[![Build Status](https://travis-ci.org/mkchandler/ex_nerdbeers.svg?branch=master)](https://travis-ci.org/mkchandler/ex_nerdbeers) [![Coverage Status](https://coveralls.io/repos/github/mkchandler/ex_nerdbeers/badge.svg?branch=master)](https://coveralls.io/github/mkchandler/ex_nerdbeers?branch=master)
 
 ## Installation
 
