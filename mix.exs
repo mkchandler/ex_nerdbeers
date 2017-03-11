@@ -4,9 +4,10 @@ defmodule ExNerdBeers.Mixfile do
   def project do
     [app: :ex_nerdbeers,
      version: "0.1.0",
-     elixir: "~> 1.4.2",
+     elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
+     test_coverage: [tool: Coverex.Task, coveralls: true],
      deps: deps()]
   end
 
