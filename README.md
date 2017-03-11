@@ -1,6 +1,6 @@
 # ExNerdBeers
 
-**TODO: Add description**
+[![Build Status](https://travis-ci.org/mkchandler/ex_nerdbeers.svg?branch=master)](https://travis-ci.org/mkchandler/ex_nerdbeers)
 
 ## Installation
 
